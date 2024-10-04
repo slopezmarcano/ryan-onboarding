@@ -11,3 +11,6 @@ df <- data.frame(
 # ggplot the data with a barchart
 ggplot(df, aes(x = x, y = y)) +
   geom_bar(stat = "identity")
+
+# add a print statement
+print("Hello, world!")
